@@ -1,0 +1,220 @@
+{
+  "_name_or_path": "csebuetnlp/mT5_m2o_english_crossSum",
+  "architectures": [
+    "MT5ForConditionalGeneration"
+  ],
+  "classifier_dropout": 0.0,
+  "d_ff": 2048,
+  "d_kv": 64,
+  "d_model": 768,
+  "decoder_start_token_id": 250030,
+  "dense_act_fn": "gelu_new",
+  "dropout_rate": 0.1,
+  "eos_token_id": 1,
+  "feed_forward_proj": "gated-gelu",
+  "initializer_factor": 1.0,
+  "is_encoder_decoder": true,
+  "is_gated_act": true,
+  "layer_norm_epsilon": 1e-06,
+  "length_penalty": 0.6,
+  "max_length": 84,
+  "model_type": "mt5",
+  "num_beams": 4,
+  "num_decoder_layers": 12,
+  "num_heads": 12,
+  "num_layers": 12,
+  "output_past": true,
+  "pad_token_id": 0,
+  "relative_attention_max_distance": 128,
+  "relative_attention_num_buckets": 32,
+  "task_specific_params": {
+    "langid_map": {
+      "amharic": [
+        35,
+        "\u2581<extra_id_64>"
+      ],
+      "arabic": [
+        4,
+        "\u2581<extra_id_95>"
+      ],
+      "azerbaijani": [
+        7,
+        "\u2581<extra_id_92>"
+      ],
+      "bengali": [
+        42,
+        "\u2581<extra_id_57>"
+      ],
+      "burmese": [
+        33,
+        "\u2581<extra_id_66>"
+      ],
+      "chinese_simplified": [
+        40,
+        "\u2581<extra_id_59>"
+      ],
+      "chinese_traditional": [
+        44,
+        "\u2581<extra_id_55>"
+      ],
+      "english": [
+        30,
+        "\u2581<extra_id_69>"
+      ],
+      "french": [
+        10,
+        "\u2581<extra_id_89>"
+      ],
+      "gujarati": [
+        27,
+        "\u2581<extra_id_72>"
+      ],
+      "hausa": [
+        43,
+        "\u2581<extra_id_56>"
+      ],
+      "hindi": [
+        21,
+        "\u2581<extra_id_78>"
+      ],
+      "igbo": [
+        9,
+        "\u2581<extra_id_90>"
+      ],
+      "indonesian": [
+        1,
+        "\u2581<extra_id_98>"
+      ],
+      "japanese": [
+        37,
+        "\u2581<extra_id_62>"
+      ],
+      "kirundi": [
+        0,
+        "\u2581<extra_id_99>"
+      ],
+      "korean": [
+        29,
+        "\u2581<extra_id_70>"
+      ],
+      "kyrgyz": [
+        5,
+        "\u2581<extra_id_94>"
+      ],
+      "marathi": [
+        13,
+        "\u2581<extra_id_86>"
+      ],
+      "nepali": [
+        20,
+        "\u2581<extra_id_79>"
+      ],
+      "oromo": [
+        41,
+        "\u2581<extra_id_58>"
+      ],
+      "pashto": [
+        34,
+        "\u2581<extra_id_65>"
+      ],
+      "persian": [
+        23,
+        "\u2581<extra_id_76>"
+      ],
+      "pidgin": [
+        14,
+        "\u2581<extra_id_85>"
+      ],
+      "portuguese": [
+        39,
+        "\u2581<extra_id_60>"
+      ],
+      "punjabi": [
+        17,
+        "\u2581<extra_id_82>"
+      ],
+      "russian": [
+        36,
+        "\u2581<extra_id_63>"
+      ],
+      "scottish_gaelic": [
+        24,
+        "\u2581<extra_id_75>"
+      ],
+      "serbian_cyrillic": [
+        28,
+        "\u2581<extra_id_71>"
+      ],
+      "serbian_latin": [
+        11,
+        "\u2581<extra_id_88>"
+      ],
+      "sinhala": [
+        31,
+        "\u2581<extra_id_68>"
+      ],
+      "somali": [
+        19,
+        "\u2581<extra_id_80>"
+      ],
+      "spanish": [
+        3,
+        "\u2581<extra_id_96>"
+      ],
+      "swahili": [
+        18,
+        "\u2581<extra_id_81>"
+      ],
+      "tamil": [
+        32,
+        "\u2581<extra_id_67>"
+      ],
+      "telugu": [
+        22,
+        "\u2581<extra_id_77>"
+      ],
+      "thai": [
+        6,
+        "\u2581<extra_id_93>"
+      ],
+      "tigrinya": [
+        16,
+        "\u2581<extra_id_83>"
+      ],
+      "turkish": [
+        15,
+        "\u2581<extra_id_84>"
+      ],
+      "ukrainian": [
+        2,
+        "\u2581<extra_id_97>"
+      ],
+      "urdu": [
+        38,
+        "\u2581<extra_id_61>"
+      ],
+      "uzbek": [
+        8,
+        "\u2581<extra_id_91>"
+      ],
+      "vietnamese": [
+        12,
+        "\u2581<extra_id_87>"
+      ],
+      "welsh": [
+        26,
+        "\u2581<extra_id_73>"
+      ],
+      "yoruba": [
+        25,
+        "\u2581<extra_id_74>"
+      ]
+    }
+  },
+  "tie_word_embeddings": false,
+  "tokenizer_class": "T5Tokenizer",
+  "torch_dtype": "float32",
+  "transformers_version": "4.34.0",
+  "use_cache": true,
+  "vocab_size": 250112
+}
