@@ -3,6 +3,9 @@
 <!-- Provide a quick summary of what the model is/does. -->
 
  I've developed an abstractive text summarization model using the T5 transformer architecture in PyTorch. I've fine-tuned the model on my specific dataset to create concise and coherent summaries of longer texts. This model takes advantage of transformer libraries and the power of multi-head self-attention to capture context and dependencies in the input text. It's a valuable tool for generating human-like summaries, making information extraction and condensation more efficient.
+
+## Try Now! : https://huggingface.co/Varadkadtan/varad-cnn-t5
+
 ## To use my model
 
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
